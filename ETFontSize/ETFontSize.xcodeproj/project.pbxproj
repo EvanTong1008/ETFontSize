@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3914B9911D8EB83100FDBA2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9901D8EB83100FDBA2A /* main.m */; };
+		3914B9941D8EB83100FDBA2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9931D8EB83100FDBA2A /* AppDelegate.m */; };
+		3914B9971D8EB83100FDBA2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9961D8EB83100FDBA2A /* ViewController.m */; };
+		3914B99A1D8EB83100FDBA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3914B9981D8EB83100FDBA2A /* Main.storyboard */; };
+		3914B99C1D8EB83100FDBA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914B99B1D8EB83100FDBA2A /* Assets.xcassets */; };
+		3914B99F1D8EB83100FDBA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3914B99D1D8EB83100FDBA2A /* LaunchScreen.storyboard */; };
+		3914B9AA1D8EB83100FDBA2A /* ETFontSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9A91D8EB83100FDBA2A /* ETFontSizeTests.m */; };
+		3914B9B51D8EB83100FDBA2A /* ETFontSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9B41D8EB83100FDBA2A /* ETFontSizeUITests.m */; };
+		3914B9C91D8EBF5800FDBA2A /* ETFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914B9C81D8EBF5800FDBA2A /* ETFontSize.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3914B9A61D8EB83100FDBA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3914B9841D8EB83100FDBA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3914B98B1D8EB83100FDBA2A;
+			remoteInfo = ETFontSize;
+		};
+		3914B9B11D8EB83100FDBA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3914B9841D8EB83100FDBA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3914B98B1D8EB83100FDBA2A;
+			remoteInfo = ETFontSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3914B98C1D8EB83100FDBA2A /* ETFontSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETFontSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3914B9901D8EB83100FDBA2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3914B9921D8EB83100FDBA2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3914B9931D8EB83100FDBA2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3914B9951D8EB83100FDBA2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3914B9961D8EB83100FDBA2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3914B9991D8EB83100FDBA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3914B99B1D8EB83100FDBA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3914B99E1D8EB83100FDBA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3914B9A01D8EB83100FDBA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3914B9A51D8EB83100FDBA2A /* ETFontSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETFontSizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3914B9A91D8EB83100FDBA2A /* ETFontSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETFontSizeTests.m; sourceTree = "<group>"; };
+		3914B9AB1D8EB83100FDBA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3914B9B01D8EB83100FDBA2A /* ETFontSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETFontSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3914B9B41D8EB83100FDBA2A /* ETFontSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETFontSizeUITests.m; sourceTree = "<group>"; };
+		3914B9B61D8EB83100FDBA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3914B9C71D8EBF5800FDBA2A /* ETFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFontSize.h; sourceTree = "<group>"; };
+		3914B9C81D8EBF5800FDBA2A /* ETFontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFontSize.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3914B9891D8EB83100FDBA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9A21D8EB83100FDBA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9AD1D8EB83100FDBA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3914B9831D8EB83100FDBA2A = {
+			isa = PBXGroup;
+			children = (
+				3914B98E1D8EB83100FDBA2A /* ETFontSize */,
+				3914B9A81D8EB83100FDBA2A /* ETFontSizeTests */,
+				3914B9B31D8EB83100FDBA2A /* ETFontSizeUITests */,
+				3914B98D1D8EB83100FDBA2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3914B98D1D8EB83100FDBA2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3914B98C1D8EB83100FDBA2A /* ETFontSize.app */,
+				3914B9A51D8EB83100FDBA2A /* ETFontSizeTests.xctest */,
+				3914B9B01D8EB83100FDBA2A /* ETFontSizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3914B98E1D8EB83100FDBA2A /* ETFontSize */ = {
+			isa = PBXGroup;
+			children = (
+				3914B9921D8EB83100FDBA2A /* AppDelegate.h */,
+				3914B9931D8EB83100FDBA2A /* AppDelegate.m */,
+				3914B9951D8EB83100FDBA2A /* ViewController.h */,
+				3914B9961D8EB83100FDBA2A /* ViewController.m */,
+				3914B9C61D8EBF5800FDBA2A /* ETFontSize */,
+				3914B9981D8EB83100FDBA2A /* Main.storyboard */,
+				3914B99B1D8EB83100FDBA2A /* Assets.xcassets */,
+				3914B99D1D8EB83100FDBA2A /* LaunchScreen.storyboard */,
+				3914B9A01D8EB83100FDBA2A /* Info.plist */,
+				3914B98F1D8EB83100FDBA2A /* Supporting Files */,
+			);
+			path = ETFontSize;
+			sourceTree = "<group>";
+		};
+		3914B98F1D8EB83100FDBA2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3914B9901D8EB83100FDBA2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3914B9A81D8EB83100FDBA2A /* ETFontSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3914B9A91D8EB83100FDBA2A /* ETFontSizeTests.m */,
+				3914B9AB1D8EB83100FDBA2A /* Info.plist */,
+			);
+			path = ETFontSizeTests;
+			sourceTree = "<group>";
+		};
+		3914B9B31D8EB83100FDBA2A /* ETFontSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3914B9B41D8EB83100FDBA2A /* ETFontSizeUITests.m */,
+				3914B9B61D8EB83100FDBA2A /* Info.plist */,
+			);
+			path = ETFontSizeUITests;
+			sourceTree = "<group>";
+		};
+		3914B9C61D8EBF5800FDBA2A /* ETFontSize */ = {
+			isa = PBXGroup;
+			children = (
+				3914B9C71D8EBF5800FDBA2A /* ETFontSize.h */,
+				3914B9C81D8EBF5800FDBA2A /* ETFontSize.m */,
+			);
+			path = ETFontSize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3914B98B1D8EB83100FDBA2A /* ETFontSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3914B9B91D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSize" */;
+			buildPhases = (
+				3914B9881D8EB83100FDBA2A /* Sources */,
+				3914B9891D8EB83100FDBA2A /* Frameworks */,
+				3914B98A1D8EB83100FDBA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETFontSize;
+			productName = ETFontSize;
+			productReference = 3914B98C1D8EB83100FDBA2A /* ETFontSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3914B9A41D8EB83100FDBA2A /* ETFontSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3914B9BC1D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSizeTests" */;
+			buildPhases = (
+				3914B9A11D8EB83100FDBA2A /* Sources */,
+				3914B9A21D8EB83100FDBA2A /* Frameworks */,
+				3914B9A31D8EB83100FDBA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3914B9A71D8EB83100FDBA2A /* PBXTargetDependency */,
+			);
+			name = ETFontSizeTests;
+			productName = ETFontSizeTests;
+			productReference = 3914B9A51D8EB83100FDBA2A /* ETFontSizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3914B9AF1D8EB83100FDBA2A /* ETFontSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3914B9BF1D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSizeUITests" */;
+			buildPhases = (
+				3914B9AC1D8EB83100FDBA2A /* Sources */,
+				3914B9AD1D8EB83100FDBA2A /* Frameworks */,
+				3914B9AE1D8EB83100FDBA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3914B9B21D8EB83100FDBA2A /* PBXTargetDependency */,
+			);
+			name = ETFontSizeUITests;
+			productName = ETFontSizeUITests;
+			productReference = 3914B9B01D8EB83100FDBA2A /* ETFontSizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3914B9841D8EB83100FDBA2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qinghong;
+				TargetAttributes = {
+					3914B98B1D8EB83100FDBA2A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3914B9A41D8EB83100FDBA2A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3914B98B1D8EB83100FDBA2A;
+					};
+					3914B9AF1D8EB83100FDBA2A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3914B98B1D8EB83100FDBA2A;
+					};
+				};
+			};
+			buildConfigurationList = 3914B9871D8EB83100FDBA2A /* Build configuration list for PBXProject "ETFontSize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3914B9831D8EB83100FDBA2A;
+			productRefGroup = 3914B98D1D8EB83100FDBA2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3914B98B1D8EB83100FDBA2A /* ETFontSize */,
+				3914B9A41D8EB83100FDBA2A /* ETFontSizeTests */,
+				3914B9AF1D8EB83100FDBA2A /* ETFontSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3914B98A1D8EB83100FDBA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914B99F1D8EB83100FDBA2A /* LaunchScreen.storyboard in Resources */,
+				3914B99C1D8EB83100FDBA2A /* Assets.xcassets in Resources */,
+				3914B99A1D8EB83100FDBA2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9A31D8EB83100FDBA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9AE1D8EB83100FDBA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3914B9881D8EB83100FDBA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914B9971D8EB83100FDBA2A /* ViewController.m in Sources */,
+				3914B9941D8EB83100FDBA2A /* AppDelegate.m in Sources */,
+				3914B9C91D8EBF5800FDBA2A /* ETFontSize.m in Sources */,
+				3914B9911D8EB83100FDBA2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9A11D8EB83100FDBA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914B9AA1D8EB83100FDBA2A /* ETFontSizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3914B9AC1D8EB83100FDBA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914B9B51D8EB83100FDBA2A /* ETFontSizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3914B9A71D8EB83100FDBA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3914B98B1D8EB83100FDBA2A /* ETFontSize */;
+			targetProxy = 3914B9A61D8EB83100FDBA2A /* PBXContainerItemProxy */;
+		};
+		3914B9B21D8EB83100FDBA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3914B98B1D8EB83100FDBA2A /* ETFontSize */;
+			targetProxy = 3914B9B11D8EB83100FDBA2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3914B9981D8EB83100FDBA2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3914B9991D8EB83100FDBA2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3914B99D1D8EB83100FDBA2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3914B99E1D8EB83100FDBA2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3914B9B71D8EB83100FDBA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3914B9B81D8EB83100FDBA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3914B9BA1D8EB83100FDBA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETFontSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3914B9BB1D8EB83100FDBA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETFontSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3914B9BD1D8EB83100FDBA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ETFontSizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETFontSize.app/ETFontSize";
+			};
+			name = Debug;
+		};
+		3914B9BE1D8EB83100FDBA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ETFontSizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETFontSize.app/ETFontSize";
+			};
+			name = Release;
+		};
+		3914B9C01D8EB83100FDBA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ETFontSizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ETFontSize;
+			};
+			name = Debug;
+		};
+		3914B9C11D8EB83100FDBA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ETFontSizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wac.ETFontSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ETFontSize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3914B9871D8EB83100FDBA2A /* Build configuration list for PBXProject "ETFontSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914B9B71D8EB83100FDBA2A /* Debug */,
+				3914B9B81D8EB83100FDBA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3914B9B91D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914B9BA1D8EB83100FDBA2A /* Debug */,
+				3914B9BB1D8EB83100FDBA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3914B9BC1D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914B9BD1D8EB83100FDBA2A /* Debug */,
+				3914B9BE1D8EB83100FDBA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3914B9BF1D8EB83100FDBA2A /* Build configuration list for PBXNativeTarget "ETFontSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914B9C01D8EB83100FDBA2A /* Debug */,
+				3914B9C11D8EB83100FDBA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3914B9841D8EB83100FDBA2A /* Project object */;
+}
