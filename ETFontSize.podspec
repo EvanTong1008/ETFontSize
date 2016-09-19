@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                 iOS开发中的UIFont的类别，可随设备变化而自动改变字体大小
                    DESC
 
-  s.homepage     = "http://github.com/EvanTong1008/ETFontSize"
+  s.homepage     = "https://github.com/EvanTong1008/ETFontSize"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "http://github.com/EvanTong1008/ETFontSize.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/EvanTong1008/ETFontSize.git", :tag => "#{s.version}" }
 
   s.source_files  = "ETFontSize/ETFontSize/ETFontSize/*.{h,m}"
 

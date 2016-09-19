@@ -95,10 +95,4 @@ static inline BOOL IS_IPHONE_6_47()
     return (IS_IPHONE() && fabs(([[UIScreen mainScreen] bounds].size.height - (double)667)) < DBL_EPSILON);
 }
 
-static inline BOOL IS_IPHONE_6_55()
-{
-    return (IS_IPHONE() && fabs(([[UIScreen mainScreen] bounds].size.height - (double)736)) < DBL_EPSILON);
-}
-
-
 @end
